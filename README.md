@@ -1,5 +1,5 @@
 # Teleprompter Candidate test
-Teleprompter Candidate test
+This test should take around 2 hours. 
 
 ## Setup
 - Fork Repo
@@ -9,7 +9,7 @@ Teleprompter Candidate test
 - Enable Teleprompter Module
   - Ensure dependancies are met: restui, views
 ## Essential
-- Update Teleprompter Module
+- Debug Teleprompter endpoint('/api/v1/teleprompter/question') as it will currently provide a 500
  - Enable REST on endpoint "teleprompter_rest_resource" and use Basic Auth
    - Accept a POST request from Authenticated Users
  - Ensure only alpha characters(Max 255) are present in the "question" field and that the only field present is "question"; otherwise fail the request with 400 and return appropriate message
