@@ -1,0 +1,8 @@
+name: 'Teleprompter'
+type: module
+description: 'Simple headless Teleprompter Service'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+dependencies:
+  - views
+  - restui

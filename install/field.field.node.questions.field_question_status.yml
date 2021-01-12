@@ -1,0 +1,23 @@
+uuid: 90df7486-8696-4be3-a764-fcb5e4daa0d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_question_status
+    - node.type.questions
+  module:
+    - options
+id: node.questions.field_question_status
+field_name: field_question_status
+entity_type: node
+bundle: questions
+label: Status
+description: 'Status of the question being asked'
+required: true
+translatable: false
+default_value:
+  -
+    value: show
+default_value_callback: ''
+settings: {  }
+field_type: list_string

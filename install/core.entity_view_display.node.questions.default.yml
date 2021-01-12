@@ -1,0 +1,29 @@
+uuid: 817bf58a-e29b-4741-be91-26f741c1d988
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.questions.field_question_status
+    - node.type.questions
+  module:
+    - options
+    - user
+id: node.questions.default
+targetEntityType: node
+bundle: questions
+mode: default
+content:
+  field_question_status:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
