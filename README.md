@@ -9,9 +9,9 @@ This test should take around 2 hours.
 - Enable Teleprompter Module
   - Ensure dependancies are met: restui, views
 ## Essential
-- Debug Teleprompter endpoint('/api/v1/teleprompter/question') as it will currently provide a 500
- - Enable REST on endpoint "teleprompter_rest_resource" and use Basic Auth
-   - Accept a POST request from Authenticated Users
+- Enable REST on endpoint on ('/api/v1/teleprompter/question') as it will currently provide a 500
+ - Allow Basic Auth on the endpoint
+ - Accept a POST request from Authenticated Users
  - Ensure only alpha characters(Max 255) are present in the "question" field and that the only field present is "question"; otherwise fail the request with 400 and return appropriate message
     - Format example can be found in /tests/question.json
  - Create a question entity
