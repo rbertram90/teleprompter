@@ -17,7 +17,7 @@ This test should take around 2 hours.
  - Create a question entity
    - Set the Status to "show"
    - Return a 201 with appropriate message
-- Update Teleprompter View to include the users First name and Surname
+- Update Teleprompter View to include the User's First name and Surname
  - Add the changes to config/install
 
 ## Bonus
